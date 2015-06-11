@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+	<title>Mail Filters</title>
+	<id>tag:mail.google.com,2008:filters:1434029513076,1434029513352,1434029513638,1434029827637</id>
+	<updated>2015-06-11T13:43:02Z</updated>
+	<author>
+		<name>Ryan Sprake</name>
+		<email>rsprake@barkleyrei.com</email>
+	</author>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1434029513076</id>
+		<updated>2015-06-11T13:43:02Z</updated>
+		<content></content>
+		<apps:property name='from' value='jira@barkleyus.com'/>
+		<apps:property name='label' value='_JIRA'/>
+		<apps:property name='shouldArchive' value='true'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1434029513352</id>
+		<updated>2015-06-11T13:43:02Z</updated>
+		<content></content>
+		<apps:property name='from' value='jira@barkleyus.com'/>
+		<apps:property name='subject' value='[JIRA]'/>
+		<apps:property name='hasTheWord' value='Closed'/>
+		<apps:property name='excludeChats' value='true'/>
+		<apps:property name='label' value='_JIRA/Closed'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1434029513638</id>
+		<updated>2015-06-11T13:43:02Z</updated>
+		<content></content>
+		<apps:property name='from' value='jira@barkleyus.com'/>
+		<apps:property name='subject' value='[JIRA]'/>
+		<apps:property name='hasTheWord' value='commented'/>
+		<apps:property name='excludeChats' value='true'/>
+		<apps:property name='label' value='_JIRA/Commented'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:1434029827637</id>
+		<updated>2015-06-11T13:43:02Z</updated>
+		<content></content>
+		<apps:property name='from' value='jira@barkleyus.com'/>
+		<apps:property name='subject' value='[JIRA]'/>
+		<apps:property name='hasTheWord' value='Mentioned'/>
+		<apps:property name='label' value='_JIRA/Mentioned'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='smartLabelToApply' value='^smartlabel_notification'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+</feed>
